@@ -1,0 +1,19 @@
+<html>
+<script>
+    function Person(name,age)
+    {
+        this.name=name;
+        this.age=age;
+    }
+    Person.prototype.f1=function(){
+    alert("Hello");
+    }
+    var o1=new Person("abc",25);
+    o1.f1();
+
+    console.log("Hello");
+</script>
+<body>
+Hello
+</body>
+</html>
