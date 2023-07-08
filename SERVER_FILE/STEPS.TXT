@@ -1,0 +1,48 @@
+we are going to see how to run a NodeJS server in our local system. 
+NodeJS is just a way for you to run JavaScript outside the browser. 
+It can be used to run desktop app servers or really anything else that you want to do with JavaScript and the thing that 
+we are going to do is actually create a web server using NodeJS.
+
+
+Creating Project and Module Installation:
+
+Step 1: 
+You can visit the link Download Node and download the LTS version. 
+After installing the node you can check your node version in the command prompt using the command.
+node --version
+
+
+Step 2: 
+Create a new folder for a project using the following command:
+mkdir YOUR_FOLDER_NAME
+ 
+
+Step 3: 
+Navigate to our folder using the following command:
+cd YOUR_FOLDER_NAME
+
+Step 4: 
+Initialize npm using the following command and server file:
+npm init -y
+
+Step 5: 
+Creating an app.js file with the following code. 
+Inside this file we need to create our server and tell to start listening on a certain port, 
+So firstly we need to require a certain library called HTTP which will preclude the HTTP library into our code inside of this HTTP variable that we created.
+
+
+-------------------------------------------------------------------------
+
+
+Steps to run: Run the application using the following command.
+node app.js
+
+Output: Now open your browser and go to http://localhost:8080/, you will see the following output.
+
+
+Output
+
+Explanation:
+
+We have created a server variable here that uses the HTTP library and called the create server function on this object and this creates a server function that has two parameters which are the request and response parameters.
+Set up our server so it will listen on the port that we want so that we have this server object pass it that port variable that we created to tell it to listen on port 8080 and then this takes a single function that it will call if there is an error potentially or it was successful.
