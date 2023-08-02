@@ -12,3 +12,7 @@ session data handling with heading express-session 3rd party middleware is used 
 
 session data can be get and set using request.sesion object
 
+
+
+https://www.npmjs.com/package/express-session
+
