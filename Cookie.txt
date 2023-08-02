@@ -1,0 +1,14 @@
+setting co. via server side code
+
+which goes to theclient machine and sets the cookie in the browser
+------
+getting the cookie in server side code is part of request object which collects cookies of your website from requset packet..
+
+
+Cookie parser is middleware to process the cookie data
+
+---
+session data handling with heading express-session 3rd party middleware is used to process the session data
+
+session data can be get and set using request.sesion object
+
